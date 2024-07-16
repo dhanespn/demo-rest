@@ -39,7 +39,8 @@ public class UsersService {
 
     public  List<UsersEntity> fetchAllUsers(){
         List<UsersEntity> h = usersRepository.findAll();
-       // System.out.println(h);
         return h;
+       // System.out.println(h);
+        //return h;
     }
 }
