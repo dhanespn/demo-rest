@@ -48,7 +48,7 @@ jobs:
         id: task-def
         uses: aws-actions/amazon-ecs-render-task-definition@v1
         with:
-          task-definition: springboot-app-task-definition.json
+          task-definition: testdpn1.json
           container-name: dpncluster1
           image: ${{ steps.build-image.outputs.image }}
       - name: Deploy Amazon ECS task definition
