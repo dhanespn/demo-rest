@@ -56,5 +56,5 @@ jobs:
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
           service: dpntest1-service
-          cluster: testdpn1
+          cluster: dpncluster1
           wait-for-service-stability: true
