@@ -2,7 +2,7 @@
     "taskDefinitionArn": "arn:aws:ecs:us-east-1:009160045751:task-definition/springboot-app-task-definition:1",
     "containerDefinitions": [
         {
-            "name": "dpntest1-service",
+            "name": "spring-boot-dpn",
             "image": "009160045751.dkr.ecr.us-east-1.amazonaws.com/dpnrepos:latest",
             "cpu": 0,
             "portMappings": [
